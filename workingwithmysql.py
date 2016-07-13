@@ -2,16 +2,16 @@ import mysql.connector
 
 config = {
   'user': 'root',
-  'password': 'guni123',
+  'password': 'osiris',
   'host': '127.0.0.1',
-  'database': 'test',
+  'database': 'game',
   'raise_on_warnings': True,
 }
 
 cnx = mysql.connector.connect(**config)
 cursor = cnx.cursor()
 
-
+'''
 def registration():
     print "Register a new user"
     username = raw_input("Name: ")
@@ -46,5 +46,13 @@ def registration():
         print "-----------------------------"
 
 registration()
+'''
+
+username = raw_input("username: ")
+user_class = raw_input("Class: ")
+
+insert = "INSERT INTO players (username, user_class) VALUES ('%s', '%s')" % (username, user_class)
+cursor.execute(insert)
+cnx.commit()
 cursor.close()
 cnx.close()

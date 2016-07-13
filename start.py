@@ -1,6 +1,19 @@
 import os
 import heroclass
 import quests
+import mysql.connector
+
+config = {
+  'user': 'root',
+  'password': 'osiris',
+  'host': '127.0.0.1',
+  'database': 'game',
+  'raise_on_warnings': True,
+}
+
+cnx = mysql.connector.connect(**config)
+cursor = cnx.cursor()
+
 
 def exit():
     exit_choice = raw_input("Exit? Y/N > ")
@@ -31,6 +44,9 @@ def register():
     lines()
     print "Please enter your username"
     username = raw_input("> ")
+    insert_username = "INSERT INTO players (username) VALUES ('%s')" % username
+    cursor.execute(insert_username)
+    cnx.commit()
     clear()
     lines()
     print "Welcome " + username + "!"
@@ -42,7 +58,11 @@ def register():
     clear()
     if hero_class_choice == "1":
         hero_class_choice = "Warrior"
-        global player1
+        '''
+        insert_warrior = "INSERT INTO players (user_class) VALUES ('%s')" % hero_class_choice
+        cursor.execute(insert_warrior)
+        cnx.commit()
+        '''
         player1 = heroclass.Warrior(player_name=username)
         clear()
         player1.printwarrior()
@@ -58,3 +78,5 @@ def register():
 register()
 
 raw_input()
+cursor.close()
+cnx.close()
