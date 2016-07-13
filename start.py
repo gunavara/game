@@ -1,7 +1,6 @@
 import os
-import gf
 import heroclass
-
+import quests
 
 def exit():
     exit_choice = raw_input("Exit? Y/N > ")
@@ -10,39 +9,52 @@ def exit():
     else:
         print "Ok."
 
+
 def clear():
     os.system('cls')
+
 
 def lines():
     print "=========================="
 
 
+def combat():
+    print "The combat is about to begin"
+    print "Enemies: "
+
 username = ""
 
-lines()
-print "Welcome to Guni Quest v0.1"
-lines()
-print "Please enter your username"
-username = raw_input("> ")
-clear()
-lines()
-print "Welcome " + username + "!"
-print "Let's select a class for your hero!"
-print "Available classes are:"
-lines()
-print "1. Warrior\n2. Mage\n3. Druid"
-hero_class_choice = raw_input("Select your hero: ")
-clear()
-if hero_class_choice == "1":
-    hero_class_choice = "Warrior"
-    player1 = heroclass.Warrior(player_name=username)
-    clear()
-    player1.printwarrior()
-elif hero_class_choice == "2":
-    hero_class_choice = "Mage"
-elif hero_class_choice == "3":
-    hero_class_choice = "Druid"
-print "Congratulations " + username + ". You are now a " + hero_class_choice
-lines()
 
-exit()
+def register():
+    lines()
+    print "Welcome to Guni Quest v0.1"
+    lines()
+    print "Please enter your username"
+    username = raw_input("> ")
+    clear()
+    lines()
+    print "Welcome " + username + "!"
+    print "Let's select a class for your hero!"
+    print "Available classes are:"
+    lines()
+    print "1. Warrior\n2. Mage\n3. Druid"
+    hero_class_choice = raw_input("Select your hero: ")
+    clear()
+    if hero_class_choice == "1":
+        hero_class_choice = "Warrior"
+        global player1
+        player1 = heroclass.Warrior(player_name=username)
+        clear()
+        player1.printwarrior()
+    elif hero_class_choice == "2":
+        hero_class_choice = "Mage"
+    elif hero_class_choice == "3":
+        hero_class_choice = "Druid"
+    print "Congratulations " + username + ". You are now a " + hero_class_choice
+    lines()
+    quests.startofquest1()
+    lines()
+
+register()
+
+raw_input()
