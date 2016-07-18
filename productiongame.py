@@ -31,9 +31,6 @@ def lines():
     print "=========================="
 
 
-
-
-
 # ---------------------DASHBOARD + SAVED GAMES---------------------
 
 def loading_screen():

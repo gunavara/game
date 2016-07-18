@@ -6,7 +6,7 @@ enemy_name = (random.choice(names))
 
 
 class Monster(object):
-    def __init__(self, monster_name="", health_points=10, min_damage=1, max_damage=3, min_block=1, max_block=4):
+    def __init__(self, monster_name="", health_points=25, min_damage=1, max_damage=3, min_block=1, max_block=4):
         self.monster_name = monster_name
         self.health_points = health_points
         self.min_damage = min_damage
