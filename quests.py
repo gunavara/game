@@ -19,7 +19,7 @@ def fight():
 
     while ss.starter_health > 0:
         sleep()
-        attack_roll = randint(10, 20)
+        attack_roll = randint(1, 3)
 
         starter_block_roll = randint(ss.starter_hero_min_block, ss.starter_hero_max_block)
 
@@ -44,6 +44,7 @@ def fight():
             lines()
 
         print "Your turn to hit the enemy!"
+        
         if ss.starter_health <= 0:
             print "You are dead. Sorry."
             lines()
