@@ -1,7 +1,6 @@
 import mysql.connector
 import os
 import quests
-import starterstats as ss
 import time
 # ---------------------DATABASE CONNECTION AND INVOKE + CURSOR CREATION---------------------
 

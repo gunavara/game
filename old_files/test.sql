@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 04, 2016 at 06:48 PM
+-- Generation Time: Jul 14, 2016 at 06:54 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 5.6.23
 
@@ -34,19 +34,15 @@ CREATE TABLE `players` (
   `hero_min_dmg` varchar(20) DEFAULT NULL,
   `hero_max_dmg` varchar(20) DEFAULT NULL,
   `hero_min_block` varchar(20) DEFAULT NULL,
-  `hero_max_block` varchar(20) DEFAULT NULL,
-  `player_xp` varchar(3) DEFAULT NULL,
-  `queststage` varchar(3) DEFAULT NULL
+  `hero_max_block` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `players`
 --
 
-INSERT INTO `players` (`id`, `username`, `hero_class`, `health_points`, `hero_min_dmg`, `hero_max_dmg`, `hero_min_block`, `hero_max_block`, `player_xp`, `queststage`) VALUES
-(1, 'Joro', 'Warrior', '55', '1', '3', '2', '4', '30', '3'),
-(2, 'Dancho', 'Warrior', '100', '1', '3', '2', '4', NULL, NULL),
-(3, 'JorjoArmani', 'Warrior', '100', '1', '3', '2', '4', NULL, NULL);
+INSERT INTO `players` (`id`, `username`, `hero_class`, `health_points`, `hero_min_dmg`, `hero_max_dmg`, `hero_min_block`, `hero_max_block`) VALUES
+(1, 'Joro', 'Warrior', '100', '1', '3', '2', '4');
 
 --
 -- Indexes for dumped tables
@@ -66,7 +62,7 @@ ALTER TABLE `players`
 -- AUTO_INCREMENT for table `players`
 --
 ALTER TABLE `players`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

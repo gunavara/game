@@ -44,7 +44,9 @@ def fight():
             lines()
 
         print "Your turn to hit the enemy!"
+
         
+
         if ss.starter_health <= 0:
             print "You are dead. Sorry."
             lines()
