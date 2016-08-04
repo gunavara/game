@@ -7,7 +7,7 @@ import time
 
 config = {
   'user': 'root',
-  'password': 'guni123',
+  'password': 'osiris',
   'host': '127.0.0.1',
   'database': 'test',
   'raise_on_warnings': True,
@@ -59,7 +59,14 @@ def loading_screen():
             print "Player: %s\nClass: %s\nHealth: %s" % (username, hero_class, health_points)
             print "Starting your quest..."
             sleep()
-            quests.startofquest1()
+
+            quest_stage_check = "SELECT queststage FROM players WHERE username='%s'" % user_search
+            cursor.fetchall(quest_stage_check)
+            for row in quest_stage_check:
+                current_stage = row[0]
+                if current_stage == 1:
+                    print "Starting your first quest!"
+                    # quests.startofquest1()
     else:
         print "Wrong selection, Goodbye."
 # ---------------------END OF DASHBOARD + SAVED GAMES---------------------
@@ -67,6 +74,13 @@ def loading_screen():
 
 # ---------------------REGISTRATION MODULE---------------------
 def registration():
+    starter_health = 100
+    starter_hero_min_dmg = 1
+    starter_hero_max_dmg = 3
+    starter_hero_min_block = 2
+    starter_hero_max_block = 4
+    starter_quest_stage = 1
+    starter_xp = 0
 
     print "Please enter your username: "
     username = raw_input("> ")
@@ -78,11 +92,21 @@ def registration():
         hero_class_selection = "Mage"
     elif hero_class_selection == "3":
         hero_class_selection = "Druid"
-    register_player = "INSERT INTO players (username, hero_class, health_points, hero_min_dmg, hero_max_dmg, hero_min_block, hero_max_block) " \
-                      "VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s')" % (username, hero_class_selection, ss.starter_health, ss.starter_hero_min_dmg, ss.starter_hero_max_dmg, ss.starter_hero_min_block, ss.starter_hero_max_block)
+    register_player = "INSERT INTO players (username, hero_class, health_points, hero_min_dmg, hero_max_dmg, " \
+                      "hero_min_block, hero_max_block, player_xp, queststage) " \
+                      "VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')"\
+                      % (username, hero_class_selection,
+                         starter_health, starter_hero_min_dmg,
+                         starter_hero_max_dmg,
+                         starter_hero_min_block,
+                         starter_hero_max_block, starter_xp,
+                         starter_quest_stage)
     clear()
     lines()
-    print "Congratulations, %s! You are now a level 1 %s. You have:\n%s health\nDamage: %s - %s\nBlock: %s - %s " %(username, hero_class_selection, ss.starter_health, ss.starter_hero_min_dmg, ss.starter_hero_max_dmg, ss.starter_hero_min_block, ss.starter_hero_max_block)
+    print "Congratulations, %s! You are now a level 1 %s. You have:\n%s health\nDamage: %s - %s\nBlock: %s - %s " \
+          "\nExperience: %s" \
+          % (username, hero_class_selection, starter_health, starter_hero_min_dmg, starter_hero_max_dmg,
+             starter_hero_min_block, starter_hero_max_block, starter_xp)
     lines()
     cursor.execute(register_player)
     cnx.commit()

@@ -47,7 +47,7 @@ shield1 = "'Scale of the dragon' (1 - 1) block"
 shield1_min = 1
 shield1_max = 1
 
-enemy_level_one_loot = [sword1, axe1 , shield1]
+enemy_level_one_loot = [sword1, axe1, shield1]
 quest1_loot = (random.choice(enemy_level_one_loot))
 
 
