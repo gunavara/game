@@ -9,11 +9,12 @@ from random import randint
 
 
 config = {
-  'user': 'root',
-  'password': 'guni123',
-  'host': '127.0.0.1',
-  'database': 'test',
+  'user': 'sql7130634',
+  'password': '8HGxzMmqvJ',
+  'host': 'sql7.freemysqlhosting.net',
+  'database': 'sql7130634',
   'raise_on_warnings': True,
+  'port' : '3306',
 }
 
 cnx = mysql.connector.connect(**config)
