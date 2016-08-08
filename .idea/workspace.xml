@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9fcbde-b1d1-4f6d-824d-e878f5de9ccb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/combat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/productiongame.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/quests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/game.iml" afterPath="$PROJECT_DIR$/.idea/game.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/combat.py" afterPath="$PROJECT_DIR$/combat.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monsters_and_loot.py" afterPath="$PROJECT_DIR$/monsters_and_loot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productiongame.py" afterPath="$PROJECT_DIR$/productiongame.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quests.py" afterPath="$PROJECT_DIR$/quests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_files/test.py" afterPath="$PROJECT_DIR$/old_files/test.py" />
     </list>
     <ignored path="game.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,55 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="productiongame.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/productiongame.py">
+      <file leaf-file-name="start.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="49" column="35" selection-start-line="45" selection-start-column="8" selection-end-line="49" selection-end-column="35" />
+            <state relative-caret-position="584">
+              <caret line="378" column="65" selection-start-line="378" selection-start-column="65" selection-end-line="378" selection-end-column="65" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <element signature="e#465#478#0" expanded="false" />
-                <element signature="e#498#514#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="combat.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/combat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-                <element signature="e#563#576#0" expanded="false" />
-                <element signature="e#603#619#0" expanded="false" />
-                <element signature="e#646#680#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <element signature="e#1#27#0" expanded="true" />
-                <element signature="e#85#101#0" expanded="false" />
-                <element signature="e#121#136#0" expanded="false" />
-                <element signature="e#156#190#0" expanded="false" />
+                <element signature="e#209#329#0" expanded="false" />
+                <element signature="e#512#525#0" expanded="false" />
+                <element signature="e#545#561#0" expanded="false" />
+                <element signature="e#581#615#0" expanded="false" />
+                <element signature="e#6826#6900#0" expanded="false" />
+                <element signature="e#9587#9600#0" expanded="false" />
+                <element signature="e#9627#9643#0" expanded="false" />
+                <element signature="e#9670#9704#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -86,12 +54,11 @@
       <file leaf-file-name="monsters_and_loot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monsters_and_loot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#33#74#0" expanded="false" />
-                <element signature="e#164#420#0" expanded="false" />
-                <element signature="e#815#951#0" expanded="false" />
+                <element signature="e#167#423#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -119,7 +86,6 @@
         <option value="$PROJECT_DIR$/quests/quest1.py" />
         <option value="$PROJECT_DIR$/quest1.py" />
         <option value="$PROJECT_DIR$/workingwithmysql.py" />
-        <option value="$PROJECT_DIR$/start.py" />
         <option value="$PROJECT_DIR$/dbconnect.py" />
         <option value="$PROJECT_DIR$/mathtest.py" />
         <option value="$PROJECT_DIR$/gf.py" />
@@ -128,19 +94,21 @@
         <option value="$PROJECT_DIR$/new_game.py" />
         <option value="$PROJECT_DIR$/new_monsters.py" />
         <option value="$PROJECT_DIR$/loot.py" />
-        <option value="$PROJECT_DIR$/monsters_and_loot.py" />
         <option value="$PROJECT_DIR$/combat.py" />
         <option value="$PROJECT_DIR$/quests.py" />
         <option value="$PROJECT_DIR$/productiongame.py" />
+        <option value="$PROJECT_DIR$/monsters_and_loot.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/testing.py" />
+        <option value="$PROJECT_DIR$/start.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -167,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,53 +156,20 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8/cmd/git.exe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programming\Python\game" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration default="false" name="combat" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="game" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/combat.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="monsters_and_loot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="game" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/monsters_and_loot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.start">
     <configuration default="false" name="productiongame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,6 +217,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="game" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="game" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="game" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -422,19 +390,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.combat" />
-      <item index="1" class="java.lang.String" itemvalue="Python.monsters_and_loot" />
-      <item index="2" class="java.lang.String" itemvalue="Python.productiongame" />
-      <item index="3" class="java.lang.String" itemvalue="Python.quests" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.productiongame" />
+      <item index="1" class="java.lang.String" itemvalue="Python.quests" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.start" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testing" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.quests" />
-        <item index="2" class="java.lang.String" itemvalue="Python.productiongame" />
-        <item index="3" class="java.lang.String" itemvalue="Python.combat" />
-        <item index="4" class="java.lang.String" itemvalue="Python.monsters_and_loot" />
+        <item index="0" class="java.lang.String" itemvalue="Python.start" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.quests" />
+        <item index="4" class="java.lang.String" itemvalue="Python.productiongame" />
       </list>
     </recent_temporary>
   </component>
@@ -455,25 +423,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13909379" sideWeight="0.49577168" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13872135" sideWeight="0.49577168" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.26198438" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="11" y="391" width="1658" height="227" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.39215687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="11" y="391" width="1658" height="227" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13802083" sideWeight="0.50422835" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3979239" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -537,23 +505,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-            <element signature="e#85#101#0" expanded="false" />
-            <element signature="e#121#136#0" expanded="false" />
-            <element signature="e#156#190#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/starterstats.py" />
     <entry file="file://$PROJECT_DIR$/monsters.py" />
@@ -561,11 +517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#465#478#0" expanded="false" />
-            <element signature="e#498#514#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -574,12 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-            <element signature="e#85#101#0" expanded="false" />
-            <element signature="e#121#136#0" expanded="false" />
-            <element signature="e#156#190#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,11 +536,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#465#478#0" expanded="false" />
-            <element signature="e#498#514#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -604,12 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-            <element signature="e#85#101#0" expanded="false" />
-            <element signature="e#121#136#0" expanded="false" />
-            <element signature="e#156#190#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,12 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-            <element signature="e#85#101#0" expanded="false" />
-            <element signature="e#121#136#0" expanded="false" />
-            <element signature="e#156#190#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,12 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-            <element signature="e#85#101#0" expanded="false" />
-            <element signature="e#121#136#0" expanded="false" />
-            <element signature="e#156#190#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,7 +584,6 @@
     <entry file="file://$PROJECT_DIR$/fightmodule.py" />
     <entry file="file://$PROJECT_DIR$/dbconnect.py" />
     <entry file="file://$PROJECT_DIR$/mathtest.py" />
-    <entry file="file://$PROJECT_DIR$/start.py" />
     <entry file="file://$PROJECT_DIR$/workingwithmysql.py" />
     <entry file="file://$PROJECT_DIR$/gf.py" />
     <entry file="file://$PROJECT_DIR$/heroclass.py" />
@@ -669,60 +592,70 @@
     <entry file="file://$PROJECT_DIR$/new_game.py" />
     <entry file="file://$PROJECT_DIR$/monsters.py" />
     <entry file="file://$PROJECT_DIR$/loot.py" />
-    <entry file="file://$PROJECT_DIR$/monsters_and_loot.py">
+    <entry file="file://$PROJECT_DIR$/combat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#74#0" expanded="false" />
-            <element signature="e#164#420#0" expanded="false" />
-            <element signature="e#815#951#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-1388">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-            <element signature="e#85#101#0" expanded="false" />
-            <element signature="e#121#136#0" expanded="false" />
-            <element signature="e#156#190#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="21" column="91" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/productiongame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="49" column="35" selection-start-line="45" selection-start-column="8" selection-end-line="49" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#465#478#0" expanded="false" />
-            <element signature="e#498#514#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1836">
+          <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="663">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/combat.py">
+    <entry file="file://$PROJECT_DIR$/testing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="720">
+          <caret line="53" column="36" selection-start-line="8" selection-start-column="0" selection-end-line="53" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monsters_and_loot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#74#0" expanded="false" />
+            <element signature="e#167#423#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="378" column="65" selection-start-line="378" selection-start-column="65" selection-end-line="378" selection-end-column="65" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#563#576#0" expanded="false" />
-            <element signature="e#603#619#0" expanded="false" />
-            <element signature="e#646#680#0" expanded="false" />
+            <element signature="e#209#329#0" expanded="false" />
+            <element signature="e#512#525#0" expanded="false" />
+            <element signature="e#545#561#0" expanded="false" />
+            <element signature="e#581#615#0" expanded="false" />
+            <element signature="e#6826#6900#0" expanded="false" />
+            <element signature="e#9587#9600#0" expanded="false" />
+            <element signature="e#9627#9643#0" expanded="false" />
+            <element signature="e#9670#9704#0" expanded="false" />
           </folding>
         </state>
       </provider>

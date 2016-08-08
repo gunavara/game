@@ -4,6 +4,9 @@ import random
 def lines():
     print "================================="
 
+
+
+
 names_level_one = ["Dark Ancestor", "Volatile Ember", "Young dragon"]
 names_level_two = [
     "Stonehound",

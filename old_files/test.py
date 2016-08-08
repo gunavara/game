@@ -1,26 +1,39 @@
-import monsters
-from random import randint
-import os
-import starterstats as ss
-def lines():
-    print "=========================="
+import mysql.connector
 
-attack_roll = randint(10, 20)
-
-starter_block_roll = randint(ss.starter_hero_min_block, ss.starter_hero_max_block)
-
-successful_block_health_change = starter_block_roll - attack_roll
-
-unsuccessful_block_health_change = ss.starter_health - attack_roll
-
-roll = randint(1, 10)
-
-first_enemy = monsters.Monster().createenemy()
+# ---------------------DATABASE CONNECTION AND INVOKE + CURSOR CREATION---------------------
 
 
-while ss.starter_health > 0:
-        lines()
-        print ss.starter_health
-        print "Enemy hits you for: %s" % attack_roll
-        print "You now have %s health" % unsuccessful_block_health_change
-        ss.starter_health -= attack_roll
+config = {
+  'user': 'root',
+  'password': 'guni123',
+  'host': '127.0.0.1',
+  'database': 'test',
+  'raise_on_warnings': True,
+
+}
+cnx = mysql.connector.connect(**config)
+cursor = cnx.cursor()
+
+# user_search = "Joro"
+
+player_one = "SELECT queststage FROM players WHERE username='Joro'"
+
+cursor.execute(player_one)
+player_one_stats = cursor.fetchall()
+for row in player_one_stats:
+  stage = int(row[0])
+
+if stage < 5:
+    print stage
+else:
+    print "Higher than 5"
+
+
+
+view_new_player_stats = "SELECT username, hero_class, health_points, hero_min_dmg, hero_max_dmg, hero_min_block, hero_max_block FROM players WHERE username='jojo'"
+cursor.execute(view_new_player_stats)
+player_new_stats = cursor.fetchall()
+for row in player_new_stats:
+    user_name = row[0]
+print user_name
+
